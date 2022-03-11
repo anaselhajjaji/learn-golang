@@ -21,5 +21,5 @@ jobs:
     - name: Build hello project
       run: cd hello-project && go build
 
-    #- name: Test
-    #  run: go test -v ./...
+    - name: Build channels project
+      run: cd go-channels && go build
